@@ -1,14 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
 <head>
-	<title>test test</title>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <title>Morse Code Translator</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.5/build/pure-min.css" integrity="sha384-LTIDeidl25h2dPxrB2Ekgc9c7sEC3CWGM6HeFmuDNUjX76Ert4Z4IY714dhZHPLd" crossorigin="anonymous">
+	<!-- FAVICON -->
 </head>
-<body>
+<body>    
+    <div>
+        <form>
+            <fieldset>
+                <legend>Translate a Message</legend>
+                <label>Input:</label><br>
+                <textarea id="input" name="input"  cols="80" rows="4"></textarea>
+                <br><br>
 
+                <button type="button" onclick="something();">C2MC</button>
 
+                <label for="default-remember">Output:</label>
+                <br /><br />
+                <p>
+                <textarea id="output" name="output"  cols="80" rows="4"></textarea>
+                </p>
+            </fieldset>
+        </form>
 
+        </div>
+	<script src="example.js"></script>
 </body>
 </html>
-
